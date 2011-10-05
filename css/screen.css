@@ -16,6 +16,7 @@ html, body {
 }
 
 body {
+  color: #666362;
   background-color: white;
   font: 14px arial, helvetica, clean, sans-serif;
   *font-size: small;
@@ -81,7 +82,7 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 40em;
+  width: 620px;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
@@ -118,8 +119,6 @@ ul.posts {
   .site .footer {
     font-size: 80%;
     color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
     overflow: hidden;
   }
 
@@ -147,6 +146,15 @@ ul.posts {
   right: 50px;
   bottom: 20px;
 }
+
+#map {
+  padding-top: 10px;
+}
+
+.deemphasize {
+  font-size: 80%;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
