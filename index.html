@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Coding Dojo Pula</title>
+  <meta name="author" content="Coding Dojo Pula" />
+  <meta name="copyright" content="Coding Dojo Pula, 2011. - eternity" />
+  <link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="css/tabs.css" type="text/css" media="screen, projection" />
+  <script src="http://cdn.jquerytools.org/1.2.6/jquery.tools.min.js"></script>
+</head>
+<body>
+
+<div class="site">
+  <div id="content">
+    Coding Dojo has come to Pula / Croatia :-)
+    The <a href="http://codingdojo.org/cgi-bin/wiki.pl?WhatIsCodingDojo">concept</a> is nothing new, so no use spending time there.
+    We meet usually every first (or second) Saturday at <a href="http://www.fazan.org/">Hacklab</a> space (a branch of <a href="http://twiki.monteparadiso.hr/">Monte Paradiso club</a>) in <a href="http://rojcnet.pula.org/">Rojc</a>.
+    All wandering developers are welcome, feel free to drop in!
+    You can join us @ our <a href="http://groups.google.com/group/CodingDojoHacklabPula">Google group</a> or look into Twitter's <a href="https://twitter.com/#!/search?q=%23codingdojopula">#codingdojopula</a> tag.
+  </div>
+
+  <ul id="tabs">
+    <li><a id="location_tab" href="#location">Where to find us</a></li>
+    <li><a id="events_tab" href="#events">Events</a></li>
+  </ul>
+  <div id="panes">
+    <div id="map">
+      <iframe width="620" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;hl=en&amp;ie=UTF8&amp;t=h&amp;vpsrc=6&amp;msid=213896917466679797255.0004ae870873b4dcd8a00&amp;f=d&amp;daddr=Coding+Dojo+Pula+%4044.863018,13.844694&amp;ll=44.863063,13.844533&amp;spn=0.002662,0.006652&amp;z=17&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?msa=0&amp;hl=en&amp;ie=UTF8&amp;t=h&amp;vpsrc=6&amp;msid=213896917466679797255.0004ae870873b4dcd8a00&amp;f=d&amp;daddr=Coding+Dojo+Pula+%4044.863018,13.844694&amp;ll=44.863063,13.844533&amp;spn=0.002662,0.006652&amp;z=17&amp;source=embed" style="color:#0000FF;text-align:left">Coding Dojo Pula @ Hacklab / Rojc</a> in a larger map</small>
+    </div>
+    <div id="calendar">
+      <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showDate=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=250&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=q8aofrm1b420aebb6jeb1eot6k%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=Europe%2FBelgrade" style=" border-width:0 " width="620" height="350" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+
+  <div id="footer" class="footer">
+    <img src="images/logo.png">
+  </div>
+</div>
+
+<a href="http://github.com/codingdojopula"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+
+<!--
+  This JavaScript snippet activates tabs
+  source: http://flowplayer.org/tools/tabs/index.html
+-->
+<script>
+// perform JavaScript after the document is scriptable.
+$(function() {
+  // setup ul.tabs to work as tabs for each div directly under div.panes
+  $("#tabs").tabs("#panes > div", { history: true });
+});
+</script>
+
+</body>
+</html>
